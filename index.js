@@ -1,5 +1,5 @@
 const TIMER_KEY = "terminal_timer";
-const TIMER_DURATION = 10 * 60 * 1000;
+const TIMER_DURATION =  25 * 60 * 1000;
 const KEY = "trm_4";
 let timerEnd = null;
 let timerInterval = null;
@@ -151,7 +151,7 @@ let unlocked = false;
 let warningTimeout = null;
 let promptText = "";
 
-const speed = 40;
+const speed = 20;
 const swapDelay = 10;
 
 /* =========================
@@ -207,7 +207,7 @@ function render(activeText) {
   }
 
   log.innerHTML = html;
-}
+};
 
 /* =========================
    SCRAMBLE ANIMATION
